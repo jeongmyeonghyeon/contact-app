@@ -12,6 +12,8 @@ class PhoneInfoList extends Component {
 
         // if ( !data ) return null;
 
+        console.log('redering list');
+
         const list = data.map(
             info => (
                 <PhoneInfo 
